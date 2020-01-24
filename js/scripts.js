@@ -1,14 +1,10 @@
 var arrayOfUserNUm=[];
-
-
 $(document).ready(function(){
   $("#userNumForm").submit(function(event){
     event.preventDefault();
     $("#userNumForm").hide();
     var usersNumber = parseInt($("input#userinputtedNumber").val());
-
       var moveToArrayFunc  = function(){
-
       var usersnumchange = usersNumber
       for(i=1; i <= usersNumber; i++){
         arrayOfUserNUm.push(usersnumchange)
@@ -30,7 +26,6 @@ $(document).ready(function(){
          else{
            arrayOfUserNUm.push(arrayOfUserNUm[i])
          }
-
 };
 
 });
