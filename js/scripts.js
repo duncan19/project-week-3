@@ -19,7 +19,10 @@ $(document).ready(function(){
          {
                 arrayOfUserNUm.push('Im sorry I can not do that')
          }
-
+         else if (arrayOfUserNUm[i].toString().includes(2))
+         {
+                arrayOfUserNUm.push('boop')
+         }
 };
 
 });
