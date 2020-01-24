@@ -23,7 +23,11 @@ $(document).ready(function(){
          {
                 arrayOfUserNUm.push('boop')
          }
-};
+         else if (arrayOfUserNUm[i].toString().includes(1))
+         {
+           arrayOfUserNUm.push('beep')
+         }
+
 
 });
 });
