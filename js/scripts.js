@@ -27,7 +27,11 @@ $(document).ready(function(){
          {
            arrayOfUserNUm.push('beep')
          }
+         else{
+           arrayOfUserNUm.push(arrayOfUserNUm[i])
+         }
 
+};
 
 });
 });
