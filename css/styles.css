@@ -1,3 +1,9 @@
 img{
   float: right;
 }
+body{
+  background-color: grey;
+}
+.result{
+  display:none;
+}
