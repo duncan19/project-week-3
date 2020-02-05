@@ -2,7 +2,7 @@
 
 # _Beep Boop_
 
-#### _user puts in number and it returns number along with msg, 1.24.20}_
+#### _user puts in number and it returns number along with msg, 1.24.20_
 
 #### By _**Duncan Robbins**_
 
