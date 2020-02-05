@@ -8,18 +8,18 @@ var moveToArrayFunc  = function(usersNumber){
   for (i = 0; i < arrayOfUserNum.length; i ++){
     if(arrayOfUserNum[i].toString().includes(3))
     {
-      arrayOfUserNum[i]  = ('Im sorry I can not do that');
+      arrayOfUserNum[i]  = 'Im sorry I can not do that';
     } else if (arrayOfUserNum[i].toString().includes(2))
     {
-      arrayOfUserNum[i]  = ('boop');
+      arrayOfUserNum[i]  = 'boop';
     } else if (arrayOfUserNum[i].toString().includes(1))
     {
-      arrayOfUserNum[i]  = ('beep');
+      arrayOfUserNum[i]  = 'beep';
     } else{
      arrayOfUserNum[i] = (arrayOfUserNum[i]);
     }
-    return arrayOfUserNum;
   }
+  return arrayOfUserNum;
 }
 $(document).ready(function(){
   $("#userNumForm").submit(function(event){

@@ -35,7 +35,7 @@ Display "I'm sorry, Dave. I'm afraid I can't do that."
 
 Most important spec applies above all else
 * input: “13”
-* output: “...,I'm sorry, Dave. I'm afraid I can't do that.”
+* output: “0, beep, boop, 4, 5, 6, 7, 8, 9, beep, boop, I'm sorry, Dave. I'm afraid I can't do that.”
 
 ## Setup/Installation Requirements
 
